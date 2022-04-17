@@ -10,7 +10,11 @@
       "name": "Launch Program",
       "skipFiles": ["<node_internals>/**"],
       "program": "${workspaceFolder}/src/index.js",
-      "args": ["--experimental-specifier-resolution", "node"]
+
+      "args": ["node"],
+
+      "console": "integratedTerminal",
+      "outputCapture": "std"
     }
   ]
 }

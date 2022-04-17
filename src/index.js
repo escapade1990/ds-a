@@ -1,14 +1,4 @@
 console.clear();
-// import Queue from './queue/index.js';
+import BST from './binary-search-tree/index.js';
 
-// let queue = new Queue();
-
-// queue.enqueue(1);
-// queue.enqueue(2);
-// queue.enqueue(3);
-
-// queue.print();
-
-// queue.dequeue();
-
-// queue.print();
+console.log('done');
